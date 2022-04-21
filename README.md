@@ -1,4 +1,3 @@
-
 # FritzBox-Reconnect-Tool
 
 DE:
@@ -12,39 +11,54 @@ EN:
 A simple reconnect tool with Gui to eliminate misunderstandings and malfunctions.
 
 Execute the jar and a gui with a access button opens. After you have clicked it, the programme closes and your IP address has been successfully changed.
+
 ## Inhaltsverzeichnis
 
 - DE:
 
-  - Installation
-    - Nutzer
-    - Entwickler
+  - [Installation](#installation)
 
-  - API
+    - [Nutzer](#user)
+    - [Entwickler](#dev)
 
-  - Demo
+  - [API](#api)
+
+  - [Demo](#demo)
+
+  - [Author](#author)
 
 EN:
 
-  - Installation
-    - User
-    - Developer
+- [Installation](#installation)
 
-  - API
+  - [User](#user)
+  - [Developer](#dev)
 
-  - Demo
+- [API](#api)
+
+- [Demo](#demo)
+
+- [Author](#author)
+
+<a name="installation"></a>
+
 ## Installation
 
 DE:
 
+<a name="user"></a>
 
 - Nutzer
+
   - Rufe [Releases](https://github.com/mcshept/FritzBoxReconnect/releases) auf und lade dir die neueste Version herunter oder öffne das Terminal in einem Ordner deiner Wahl und schreibe:
 
   ```bash
   git clone https://github.com/mcshept/FritzBoxReconnect.git
   ```
+
   Drücke daraufhin `Enter`
+
+<a name="dev"></a>
 
 - Entwickler
   - Terminal
@@ -58,16 +72,16 @@ DE:
     - Wächsele ins Hauptmenü und klicke auf [GET FROM VCS](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html)
     - Füge im folgenden Menü `https://github.com/mcshept/FritzBoxReconnect.git` ein
 
-
 EN:
 
-
 - User
+
   - Go to [Releases](https://github.com/mcshept/FritzBoxReconnect/releases) and download the latest version or open the terminal in a folder of your choice and write:
 
   ```bash
   git clone https://github.com/mcshept/FritzBoxReconnect.git
   ```
+
   Then press `Enter`.
 
 - Developer
@@ -81,10 +95,12 @@ EN:
   - IntelliJ IDEA
     - Go to the main menu and click on [GET FROM VCS](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html).
     - Add `https://github.com/mcshept/FritzBoxReconnect.git` in the following menu
+
+<a name="api"></a>
+
 ## API
 
 DE:
-
 
 Um das Tool in deinem Programm zu verwenden, füge es als Library hinzu.
 Um die Reconnect-Funktion zu verwenden, schreibe `ReconnectUtil.execute();` und surrounde es mit Try-Catch.
@@ -93,17 +109,19 @@ Falls du eine Ausgabe/Rückmeldung erhalten möchtest, füge `ReconnectUtil.send
 
 EN:
 
-
 To use the tool in your programme, add it as a library.
 To use the reconnect function, write `ReconnectUtil.execute();` and surround it with try-catch.
 
 If you want to get an output/feedback, add `ReconnectUtil.sendReconnect();`.
+
+<a name="demo"></a>
+
 ## Demo
 
 Coming soon...
 
+<a name="author"></a>
 
 ## Author
 
 - [@mcshept](https://www.github.com/mcshept)
-
